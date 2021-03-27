@@ -14,7 +14,8 @@ const Posts = (props) => {
           <Post 
             key = {postObj.id}
             post = {postObj}
-            
+            addLike = {likePost}
+
           />
         )
       })}
